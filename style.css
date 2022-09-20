@@ -1,0 +1,130 @@
+body 
+{
+	background-image:url("istockphoto-1047456286-612x612.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100%;
+    position: relative;
+    text-align: center;
+	
+}
+
+.container 
+{
+    position: absolute;
+    margin: 20px;
+    max-width: 500px;
+    padding: 20px;
+    height: 500px;
+    background-color:rgb(109, 179, 182);
+}
+
+.intro 
+{
+	margin: 30px 0px;
+	font-family: cursive;
+    font-weight: bold;
+}
+
+h1 
+{
+	color: black;
+	font-weight: 800;
+}
+
+p 
+{
+	font-weight: 600;
+}
+
+#first 
+{
+	margin-top: 10px;
+	color:gold;
+}
+
+#second 
+{
+	color:chartreuse;
+
+}
+
+#userInput
+{
+	box-shadow: 1px 2px;
+	color :black
+}
+
+#enter 
+{
+	border: none;
+	padding: 5px 15px;
+	border-radius: 5px;
+	color: #7851a9;
+	background-color: #C8A2C8 ;
+	transition: all 0.75s ease;
+	font-weight: normal;
+	box-shadow: 5px 2px;
+}
+
+#enter:hover
+{
+	background-color: rgb(2,121,143) ;
+	color:rgb(255,205,93) ;
+}
+
+ul 
+{
+	text-align: left;
+	margin-top: 20px;    
+}
+
+
+li 
+{
+	list-style: none;
+	padding: 10px 20px;
+	color: white;
+	text-transform: capitalize;
+	font-weight: 600;
+	border: 2px solid rgb(2,95,112);
+	border-radius: 5px;
+	margin-bottom: 10px;
+	background:rgb(78,185,205);
+	transition-duration: 2s;
+}
+
+li:hover 
+{
+	background: rgb(109, 179, 182);
+}
+
+li > button 
+{
+	font-weight: normal;
+	background: none;
+	border: none;
+	float: right;
+	color: rgb(2,95,112);
+	font-weight: 800;
+}
+
+input 
+{
+	border-radius: 5px;
+	min-width: 65%;
+	padding: 5px;
+	border: none;
+}
+
+
+.done 
+{
+	background: #51DF70 !important;
+	color: #008954;
+}
+
+.delete 
+{
+	display: none;
+}
